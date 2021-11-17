@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="icon" href="Lanternfall Logo White.png">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <style>
+        .green-split {
+            position: fixed;
+            top: 50%;
+            width: 100%;
+            height: 0%;
+            background-color: #18b418;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="center-grid-page">
+        <div class="center-block">
+            <div class="center-grid-index">
+                <div class="logo">
+                    <div>
+                        <img width="100px" height="100px" src="Lanternfall Logo White.png">
+                    </div>
+                </div>
+                <h1 class="header">LOGIN</h1>
+                <div class="text-email">
+                    <div class="text-style">Email:</div>
+                </div>
+                <div class="text-password">
+                    <div class="text-style">Password:</div>
+                </div>
+                <div class="placeholders-one">
+                    <input type="text" class="placeholders-style" placeholder="Email" id="email" maxlength="320" required>
+                </div>
+                <div class="placeholders-two">
+                    <input type="password" class="placeholders-style" placeholder="Password" id="pwd" maxlength="64" required>
+                </div>
+                <div class="error-index">
+                    <div id="error"></div>
+                </div>
+                <div class="button-index">
+                    <button class="button-style" id="login-button">Sign In</button>
+                    <button class="button-style" id="register-button">Register</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="green-split"></div>
+    <script src="JS/anime.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

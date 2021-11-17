@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Info</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <link rel="icon" href="Lanternfall Logo White.png">
+    <link rel="stylesheet" href="./CSS/hamburger.css">
+</head>
+
+<body>
+    <input type="image" src="IMG/Hamburger_icon.svg.png" class="ham-icon" id="btnHam" />
+    <section id="divHam" class="ham-container">
+        <div class="float-top"><a href="map.html">MAP</a></div>
+        <div class="float-top"><a href="recentKill.html">RECENT</a></div>
+        <div class="float-top"><a href="history.html">SEARCH</a></div>
+        <div class="float-top"><a href="leaderboard.html">LEADERBOARD</a></div>
+        <div class="float-top"><a href="profile.html">PROFILE</a></div>
+        <div class="float-top"><a href="about.html">ABOUT</a></div>
+        <div class="float-bot"><a href="settings.html">--Settings--</a></div>
+        <div class="float-bot"><a href="/">--Logout--</a></div>
+    </section>
+    <div class="full-page-grid-page">
+        <div class="center-block">
+            <div class="center-grid-killInfo">
+                <h1 class="header-content-kill" id="nickname"></h1>
+                <div class="content-date-kill">
+                    <div>
+                        <h1 id="time"></h1>
+                    </div>
+                </div>
+                <div class="content-kill">
+                    <div>
+                        <div id="photo"></div>
+
+                        <h2 id="description"></h2>
+                    </div>
+                </div>
+
+                <div class="button-content-kill">
+                    <button class="button-style" id="return-button">Return</button>
+                    <button class="button-style" id="delete-button">Delete</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="killInfo.js"></script>
+    <script src="JS/anime.min.js"></script>
+    <script src="JS/hamburger.js"></script>
+</body>
+
+</html>

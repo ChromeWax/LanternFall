@@ -1,0 +1,58 @@
+.ham-icon {
+    position: absolute;
+    top: 1vh;
+    left: 10px;
+    height: 50px;
+    width: 50px;
+    transition: all 250ms ease-out;
+}
+
+.ham-icon:hover {
+    filter: drop-shadow(0px 0px 5px black);
+    transition: all 250ms ease-in;
+}
+
+.ham-container {
+    position: absolute ;
+    display: flex;
+    flex-direction: column;
+    z-index: 3;
+    top: 8vh;
+    width: 0px;
+    height: 90vh;
+    background-color: black;
+    border-right: 5px solid #18b418;
+    border-top: 5px solid #18b418;
+    border-bottom: 5px solid #18b418;
+}
+
+.ham-container div {
+    padding: 5px 0 5px 3px ;
+}
+
+.ham-container > div > a {
+    color: #117511;
+    font-size: 30px;
+    font-weight: bold;
+    transition: color 150ms ease-out;
+}
+
+.ham-container div a:hover {
+    color: #94ff94 !important;
+    transition: all 250ms ease-in;
+}
+
+.float-top:nth-of-type(6) {
+    margin-bottom: auto;
+}
+
+.float-bot {
+    width: 85%;
+    order: 2;
+    text-align: center;
+}
+
+.float-bot > a {
+    font-size: 20px !important;
+    font-weight: bold !important;
+}
