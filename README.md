@@ -13,3 +13,10 @@ A website where agents can sign up and compete for the title of lantern-murderer
 * Postgres
 * Cloudflare
 * Google Cloud
+
+# Authors
+* Chris Lijoi
+* John Dominguez
+* Luke Matheson
+* Oliver Nguyen
+* Richard Vo
