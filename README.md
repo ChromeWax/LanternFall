@@ -1,5 +1,6 @@
 # LanternFall
 A website where agents can sign up and compete for the title of lantern-murderer
+![alt text](Images/Website.png)
 
 # Website
 * Website: [LanternFall.com](https://lanternfall.com/)
