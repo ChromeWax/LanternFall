@@ -1,7 +1,7 @@
 # LanternFall
 A website where agents can sign up and compete for the title of lantern-murderer
 ![alt text](Images/Website.png)
-![](Images/Website.gif)
+![](Images/Website2.gif)
 
 # Website
 * This website is no longer up
