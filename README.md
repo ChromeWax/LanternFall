@@ -1,13 +1,16 @@
 # LanternFall
-A website where agents can sign up and compete for the title of lantern-murderer
-![alt text](Images/Website.png)
-![](Images/Website2.gif)
+A website aimed to raise awareness of the invasive species of lanternflies.
+Users can sign up to view a map of their area. On the map, the user can see pins from other users.
+These pins are posts that signal the kill of a lanternfly. The user can post their kills with an image and text. That post will then show up on the map
 
 # Website
-* This website is no longer up
 * Website: [LanternFall.com](https://lanternfall.com/)
 * Guest Email: guest@gmail.com
 * Guest Password: AxYz23pL5
+
+# Screenshots
+![alt text](Images/Website.png)
+![](Images/Website2.gif)
 
 # Built With
 * Node.js
