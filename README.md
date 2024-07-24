@@ -6,7 +6,7 @@ These pins are posts from other users that signal the kill of a lanternfly. The 
 # Website
 * Website: [LanternFall.com](https://lanternfall.com/)
 * Guest Email: guest@gmail.com
-* Guest Password: AxYz23pL5
+* Guest Password: guest
 
 # Screenshots
 ![alt text](Images/Website.png)
